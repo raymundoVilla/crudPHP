@@ -1,3 +1,4 @@
+<?php include('conexion.php')?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,9 +14,31 @@
 
     <body>
         <h1>Crud Realizado con PHP crudo</h1>
+        <!-- formulario -->
+       <div class="container d-flex">
         <div class="container">
-            <button type="button" class="btn btn-primary">agregar</button>
+            <form action="" method="post">
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text"
+                    class="form-control" name="nombre" id="nombre" placeholder="ingrsa tu nombre">
+                </div>
+                <div class="form-group">
+                  <label for="apellido">Apellido</label>
+                  <input type="text"
+                    class="form-control" name="apellido" id="apellido" placeholder="ingresa tu apellido">
+                </div>
+                <div class="form-group">
+                  <label for="correo">Correo</label>
+                  <input type="text"
+                    class="form-control" name="correo" id="correo" placeholder="Ingresa tu correo">
+                </div>
+                <button type="submit" class="btn btn-success">Crear</button>
+            </form>
         </div>
+        <!-- end formulario -->
+
+        <!-- tabla de datos -->
         <div class="container">
             <table class="table">
                 <thead>
@@ -45,7 +68,8 @@
                 </tbody>
             </table>
         </div>
-
+        <!-- end table de datos -->
+        </div>
 
     </body>
 
