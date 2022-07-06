@@ -4,12 +4,6 @@ se creara un crud con php crudo
 
 ## requerimientos
 
-inyectar la info
-
--   una pagina donde mostrar la interface para el crud
-    -   un boton para crear datos
-    -   una tabla donde se mostraran los datos
-    -   un boton que permita modificar los datos
-    -   un boton que permita eliminar los datos
--   una BD par almacenar datos
-    -   1sola tabla donde inyectar la info
+-   una pantalla donde se pueda visualizar lo datos de la BD
+    -   se usara bootstrap para la construccion de la pantalla principal
+-   una pantalla con un formulario para poder inyectar info en la BD
