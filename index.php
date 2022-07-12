@@ -1,19 +1,6 @@
-<?php include("./bd.php") ?>
-<!DOCTYPE html>
-<html lang="en">
+<?php include("bd.php") ?>
+<?php include("includes/header.php") ?>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
-        <title>CRUD</title>
-    </head>
-
-    <body>
         <h1 class="text-center m-3 p-3">CRUD Realizado con PHP puro</h1>
         <div class="container">
             <div class="row">
@@ -56,9 +43,4 @@
                 </div>
             </div>
         </div>
-
-
-        <script src="./resources/main.js"></script>
-    </body>
-
-</html>
+<?php include("includes/footer.php")?>
